@@ -3,7 +3,7 @@
 # Created by Roberto Preste
 import sys
 import click
-from lunchtime.functions import ignore_commands, clear_term
+from .functions import ignore_commands, clear_term
 
 
 @click.command()
