@@ -1,6 +1,8 @@
 Welcome to lunchtime's documentation!
 ======================================
 
+Ignore all terminal commands while it's lunchtime!
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
