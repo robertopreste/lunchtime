@@ -6,10 +6,9 @@ import os
 import random
 import string
 import time
-from typing import Optional
 
 
-def _crazy_out(command: str) -> str:
+def _crazy_out(command):
     """Return a weird string based on the given command.
     :param str command: input command
     :return: str
@@ -20,7 +19,7 @@ def _crazy_out(command: str) -> str:
     return cr_command
 
 
-def clear_term(msg: Optional[str] = None) -> Optional[str]:
+def clear_term(msg):
     """Clear the terminal and print an optional message.
     :param Optional[str] msg: optional message to print after clearing
     :return: Optional[str]
@@ -33,7 +32,7 @@ def clear_term(msg: Optional[str] = None) -> Optional[str]:
     return
 
 
-def ignore_commands(crazy: bool = False):
+def ignore_commands(crazy=False):
     """Ignore all commands until 'exit' is issued.
 
     Accept all kind of commands and gracefully ignore them, until the
