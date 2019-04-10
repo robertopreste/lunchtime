@@ -6,3 +6,8 @@ History
 ------------------
 
 * First release on PyPI.
+
+0.1.1 (2019-04-10)
+==================
+
+* Change prompt to user + current working directory.

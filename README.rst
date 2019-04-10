@@ -6,18 +6,12 @@ lunchtime
 .. image:: https://img.shields.io/pypi/v/lunchtime.svg
         :target: https://pypi.python.org/pypi/lunchtime
 
-.. image:: https://img.shields.io/travis/robertopreste/lunchtime.svg
+.. image:: https://travis-ci.com/robertopreste/lunchtime.svg?branch=master
         :target: https://travis-ci.com/robertopreste/lunchtime
 
 .. image:: https://readthedocs.org/projects/lunchtime/badge/?version=latest
         :target: https://lunchtime.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
-
-
-.. image:: https://pyup.io/repos/github/robertopreste/lunchtime/shield.svg
-     :target: https://pyup.io/repos/github/robertopreste/lunchtime/
-     :alt: Updates
-
 
 
 Ignore all terminal commands while it's lunchtime!
