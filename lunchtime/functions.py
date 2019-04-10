@@ -2,6 +2,7 @@
 # -*- coding: UTF-8 -*-
 # Created by Roberto Preste
 import click
+import getpass
 import os
 import random
 import string
@@ -41,8 +42,10 @@ def ignore_commands(crazy=False):
     :return:
     """
     command = " "
+    usr = getpass.getuser()
+    cwd = os.getcwd()
     while command != "exit":
-        command = click.prompt(" ~ ")
+        command = click.prompt("{} {}".format(usr, cwd))
         if command != "exit" and crazy:
             click.echo(_crazy_out(command))
     return
