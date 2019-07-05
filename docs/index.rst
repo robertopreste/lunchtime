@@ -10,6 +10,7 @@ Ignore all terminal commands while it's lunchtime!
    readme
    installation
    usage
+   api
    modules
    contributing
    authors

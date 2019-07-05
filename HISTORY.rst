@@ -11,3 +11,8 @@ History
 ==================
 
 * Change prompt to user + current working directory.
+
+0.2.0 (2019-07-05)
+------------------
+
+Clean code, add tests, fix documentation.
