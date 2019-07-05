@@ -3,16 +3,8 @@
 # Created by Roberto Preste
 import pytest
 from click.testing import CliRunner
-# from lunchtime import lunchtime
+from lunchtime.functions import _crazy_out, clear_term
 from lunchtime import cli
-
-
-# def test_cli():
-#     """Test the CLI."""
-#     runner = CliRunner()
-#     result = runner.invoke(cli.main)
-#     assert result.exit_code == 0
-#     assert 'lunchtime.cli.main' in result.output
 
 
 def test_cli_help():
@@ -21,3 +13,10 @@ def test_cli_help():
     result = runner.invoke(cli.main, ["--help"])
     assert result.exit_code == 0
     assert "Show this message and exit." in result.output
+
+
+def test_crazy_out():
+    """Test the _crazy_out() function."""
+    expect = 14
+    result = _crazy_out("testing")
+    assert len(result) == expect
