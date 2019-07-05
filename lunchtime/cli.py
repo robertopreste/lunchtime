@@ -15,8 +15,7 @@ from .functions import ignore_commands, clear_term
               (default: False)""")
 @click.version_option()
 def main(crazy, silent):
-    """Ignore every command until 'exit' is issued.
-    """
+    """Ignore every command until 'exit' is issued."""
     if silent:
         clear_term()
     else:
